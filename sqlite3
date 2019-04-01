@@ -1,0 +1,6 @@
+#launching from shell
+sqlite3 database.sqlite
+
+#hibernate connection 
+        <property name="connection.driver_class">org.sqlite.JDBC</property>
+        <property name="connection.url">jdbc:sqlite:mydb.db</property>
